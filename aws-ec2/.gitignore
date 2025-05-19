@@ -1,7 +1,17 @@
 # Byte-compiled / optimized / DLL files
+.terraform
+.terraform.lock.hcl
+
+
+
 __pycache__/
 *.py[cod]
 *$py.class
+tf-ec2/
+tf-s3/
+tf-vpc/
+tf-vpc-ec2-web/
+
 
 # C extensions
 *.so
