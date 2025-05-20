@@ -21,3 +21,9 @@ module "subnet" {
   vpc-id = module.vpc.vpc-id
   subnet-cidr = var.subnet-cidr
 }
+
+module "instance" {
+  source = "./modules/ec2"
+  instance-name = var.instance-name
+  subnet-id = module.subnet.subnet_id
+}

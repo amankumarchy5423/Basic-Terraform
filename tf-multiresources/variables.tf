@@ -6,3 +6,9 @@ variable "vpc-cidr" {
 variable "subnet-cidr" {
   type = list(string)
 }
+
+
+variable "instance-name" {
+  description = "name of all instances"
+  type = list(string)
+}
