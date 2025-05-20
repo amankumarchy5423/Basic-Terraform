@@ -29,7 +29,7 @@ variable "ec2-config" {
 
 variable "additional-tags" {
   type = map(string)
-  default = {
-    "name" = "value"
-  }
+  # default = {
+  #   "name" = "value"
+  # }
 }
