@@ -10,5 +10,7 @@ variable "lis-string" {
 }
 
 output "lower-val" {
-  value = lower(local.value)
+#   value = lower(local.value)
+#   value = upper(local.value)
+  value = startswith(local.value,"Hello")
 }
